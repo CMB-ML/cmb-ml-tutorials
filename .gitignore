@@ -1,0 +1,6 @@
+assets/*/*.json
+outputs/
+
+__pycache__
+*/__pycache__/
+outputs/
