@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 # We specify the config_path, which is the directory containing the config files relative to the current module.
 # We also specify the config_name, which is the name of the config file without the extension.
 # The version_base argument is set to None; it is for Hydra's backwards compatibility.
-@hydra.main(version_base=None, config_path="tutorial_configs", config_name="sample_cfg")
+@hydra.main(version_base=None, config_path="cfg", config_name="sample_cfg")
 # The main function must take a single argument, which is the config object.
 def main(cfg: DictConfig) -> None:
     logger.info("Config contents:\n" + str(OmegaConf.to_yaml(cfg)))
