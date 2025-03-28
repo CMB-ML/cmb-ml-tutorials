@@ -10,7 +10,7 @@ Instructions are rough currently as we rearrange things. Please contact us if yo
     - `git switch whatever`
 - Create the conda environment 
     - remove old conda installations (and Poetry... which can be gotten rid of as a whole)
-        - `conda remove -n cmb-ml --all`
+        - `conda env remove -n cmb-ml`
     - still required due to either namaster or torch... this could be fixed soon, possibly
     - `conda env create -f env.yaml`
     - To change the name of the environment, edit the file or use a different command.
