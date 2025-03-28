@@ -19,5 +19,8 @@ Instructions are rough currently as we rearrange things. Please contact us if yo
 - Install CMB-ML
     - `which pip` (ensure that the response is within the conda environment)
     - `pip install .`
+- Update the environment
+    - `cd <whatever>` (Where `whatever` contains this `README.md` and the `env.yaml`)
+    - `conda env update -n cmb-ml -f env.yaml`
 
 Now you should be set up to use these notebooks.
