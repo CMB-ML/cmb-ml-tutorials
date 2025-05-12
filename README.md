@@ -37,4 +37,5 @@ Only the Setting up your environment is really critical, though the others shoul
 I'm interested in hearing what other demonstrations would be helpful. Please let me know what would be helpful. I've considered these notebooks:
 - Executors, continued: showing how executors are set up for PyTorch training/inference and matplotlib figure production
 - Looking at actual pipeline stages and explaining them
-- Paper figure production (available, in another repository, need cleaning)
+
+More demonstrations are available in the [Dataset Paper Figures](https://github.com/CMB-ML/dataset_paper_figures.git) repository.
